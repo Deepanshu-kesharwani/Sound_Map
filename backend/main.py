@@ -18,9 +18,9 @@ import redis
 
 # Environment variables
 class Settings:
-    LASTFM_API_KEY: str = os.getenv("LASTFM_API_KEY", "ac71390adc02161b0bd5ae9a52fe0f9f")
-    LASTFM_USERNAME: str = os.getenv("LASTFM_USERNAME", "Ganastaer")
-    YOUTUBE_API_KEY: str = os.getenv("YOUTUBE_API_KEY", "AIzaSyBoXIHVZZb7mQqMVVosYlC9epDVrTqpgbU")
+    LASTFM_API_KEY: str = os.getenv("LASTFM_API_KEY", "YOUR_LASTFM_API_KEY")
+    LASTFM_USERNAME: str = os.getenv("LASTFM_USERNAME", "YOUR_LASTFM_USERNAME")
+    YOUTUBE_API_KEY: str = os.getenv("YOUTUBE_API_KEY", "YOUR_YOUTUBE_API_KEY")
     BASE_URL: str = "http://ws.audioscrobbler.com/2.0/"
     REDIS_URL: str = os.getenv("REDIS_URL", "redis://localhost")
 
